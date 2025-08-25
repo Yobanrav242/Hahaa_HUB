@@ -1,0 +1,54 @@
+.hero{
+    width: 100%;
+    min-height: 80vh;
+    z-index: -99;
+    padding-top: 10px;
+     background-color: #e2f0f5;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.hero-title{
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #fdd835;
+    text-shadow: 2px 2px 0px rgb(0,0,0);
+    font-size: 2.5rem;
+}
+.container p{
+    font-weight: 500;
+    font-size: larger;
+    text-transform: capitalize;
+    color: rgb(75, 74, 74);
+    margin: 0;
+}
+.container h2{
+    text-transform: uppercase;
+    color: #03b1e4;
+    text-shadow: 2px 2px 2px rgb(0,0,0);
+}
+.name input{
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #56ccf0;
+    background-color: transparent;
+}
+
+.name input::placeholder{
+    text-align: center;
+    font-size: larger;
+}
+.jokes button{
+    background-color: #fdd835;
+    font-weight: 800;
+    font-size: larger;
+    text-transform: uppercase;
+    border: none;
+    color: #03b1e4;
+    padding: 6px;
+}
+.jokes button:hover{
+    box-shadow: 0px 2px 4px rgb(0,0,0,0.4);
+}
